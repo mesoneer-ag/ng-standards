@@ -1,0 +1,17 @@
+{
+  "$schema": "../node_modules/@angular-devkit/schematics/collection-schema.json",
+  "schematics": {
+    "ng-add": {
+      "description": "Apply UMB defaults to an Angular CLI project.",
+      "factory": "./ng-add/index#ngAdd"
+    },
+    "prettier": {
+      "description": "A blank schematic.",
+      "factory": "./prettier/index#prettier"
+    },
+    "stylelint": {
+      "description": "A blank schematic.",
+      "factory": "./stylelint/index#stylelint"
+    }
+  }
+}
