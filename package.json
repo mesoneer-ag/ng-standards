@@ -8,10 +8,15 @@
     "version": "conventional-changelog -p angular -i CHANGELOG.md -s && git add CHANGELOG.md"
   },
   "keywords": [
+    "angular",
     "schematics"
   ],
-  "author": "",
+  "author": "UMB AG",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/umb/ng-standards.git"
+  },
   "schematics": "./src/collection.json",
   "dependencies": {
     "@angular-devkit/core": "^10.2.0",
