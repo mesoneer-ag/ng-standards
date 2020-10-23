@@ -17,6 +17,9 @@
     "type": "git",
     "url": "https://github.com/umb/ng-standards.git"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "schematics": "./src/collection.json",
   "dependencies": {
     "@angular-devkit/core": "^10.2.0",
