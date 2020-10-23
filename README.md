@@ -1,4 +1,4 @@
-# @umb/ng-standards [![npm version](https://badge.fury.io/js/%40umb%2Fng-standards.svg)](https://badge.fury.io/js/%40umb%2Fng-standards)
+# @umb/ng-standards [![Actions Status](https://github.com/umb/ng-standards/workflows/Build/badge.svg)](https://github.com/umb/ng-standards/actions) [![npm version](https://badge.fury.io/js/%40umb%2Fng-standards.svg)](https://badge.fury.io/js/%40umb%2Fng-standards)
 
 Simple schematic to provide a quick and easy angular project setup.
 
