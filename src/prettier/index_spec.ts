@@ -42,6 +42,6 @@ describe('prettier', () => {
       .toPromise();
 
     const content = tree.readContent('/package.json');
-    expect(content).toMatch('prettier -c *');
+    expect(content).toContain('prettier -c .');
   });
 });

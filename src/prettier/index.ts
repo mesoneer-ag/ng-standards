@@ -85,8 +85,8 @@ function addLintScript(): Rule {
       ? packageJson.scripts.lint.split('&&')
       : [];
 
-    if (!lintScripts.includes('prettier -c *')) {
-      lintScripts.push('prettier -c *');
+    if (!lintScripts.includes('prettier -c .')) {
+      lintScripts.push('prettier -c .');
     }
 
     packageJson.scripts.lint = lintScripts
