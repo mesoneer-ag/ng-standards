@@ -37,7 +37,7 @@ function addDependencies(): Rule {
     const dependency = {
       type: NodeDependencyType.Dev,
       name: 'prettier',
-      version: '2.1.2'
+      version: '2.3.1'
     };
 
     addPackageJsonDependency(tree, dependency);

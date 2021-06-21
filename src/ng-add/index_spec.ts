@@ -10,7 +10,7 @@ const collectionPath = path.join(__dirname, '../collection.json');
 const workspaceOptions: Schema = {
   name: 'workspace',
   newProjectRoot: 'projects',
-  version: '10.0.0'
+  version: '12.0.0'
 };
 
 describe('ng-add', () => {

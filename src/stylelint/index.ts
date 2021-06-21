@@ -35,11 +35,11 @@ export function stylelint(options: any): Rule {
 function addDependencies(): Rule {
   return (tree: Tree) => {
     const dependencies = {
-      stylelint: '13.7.2',
+      stylelint: '13.13.1',
       'stylelint-config-idiomatic-order': '8.1.0',
       'stylelint-config-recommended-scss': '4.2.0',
-      'stylelint-config-standard': '20.0.0',
-      'stylelint-scss': '3.18.0'
+      'stylelint-config-standard': '22.0.0',
+      'stylelint-scss': '3.19.0'
     };
 
     Object.entries(dependencies).forEach(([name, version]) => {
