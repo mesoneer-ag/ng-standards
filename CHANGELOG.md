@@ -1,3 +1,12 @@
+## [1.0.1](https://github.com/umb/ng-standards/compare/v1.0.0...v1.0.1) (2021-06-21)
+
+
+### Bug Fixes
+
+* change prettier files selection ([b63f20f](https://github.com/umb/ng-standards/commit/b63f20f035088b198c4566c471e3edbcf7cf4199))
+
+
+
 # [1.0.0](https://github.com/umb/ng-standards/compare/0.1.2...1.0.0) (2021-06-21)
 
 

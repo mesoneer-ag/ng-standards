@@ -1,6 +1,6 @@
 {
   "name": "@umb-ag/ng-standards",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Simple schematic to provide a quick and easy angular project setup.",
   "scripts": {
     "build": "tsc -p tsconfig.json",
